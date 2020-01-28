@@ -1,0 +1,272 @@
+.jsPanel {
+    box-shadow: rgb(51, 51, 51) 0px 0px 60px 10px;
+}
+
+.jsPanel-theme-default {
+    background-color: #6f6f6f;
+}
+
+.jsPanel-theme-default>.jsPanel-hdr * {
+    color: #fff;
+}
+
+.jsPanel-headerbar {
+    border-bottom: none;
+}
+
+
+/************************************************************************************************************************************************
+******************************************************************** Panels *********************************************************************
+************************************************************************************************************************************************/
+
+.powerpack3-panel .dragbar {
+    background: #212121;
+    box-shadow: 0px 0px 15px 5px #252525;
+    position: absolute;
+}
+
+.powerpack3-panel .dragbar.dragged {
+    background: #545454;
+    box-shadow: 0px 0px 15px 5px #545454;
+}
+
+.powerpack3-panel .control-buttons {
+    background: #2d2d2d;
+}
+
+.powerpack3-panel .control-buttons i:hover {
+    color: #fff;
+}
+
+
+/************************************************************************************************************************************************
+************************************************************ AttachBookmarksToDocuments *********************************************************
+************************************************************************************************************************************************/
+
+.DocumentItem .BookmarkItem {
+    border-left: 1px solid #585858;
+}
+
+
+/************************************************************************************************************************************************
+******************************************************************** FocusMode ******************************************************************
+************************************************************************************************************************************************/
+
+.btn-focus {
+    color: #353535;
+    background: #181818;
+    border: 1px solid #353535;
+}
+
+.btn-focus.active {
+    color: #2f2f2f;
+    border: 1px solid #272727;
+}
+
+.btn-focus:hover {
+    border: 1px solid #f5ee86;
+    color: #f5ee86;
+}
+
+.btn-focus.active:hover {
+    border: 1px solid #353535;
+    color: #353535;
+}
+
+
+/************************************************************************************************************************************************
+******************************************************************** Separators *****************************************************************
+************************************************************************************************************************************************/
+
+.Node .showXItems-wrapper {
+    border: 1px solid #2b2b2b;
+    color: #565656;
+}
+
+.Node .showXItems-wrapper:hover {
+    border: 1px solid #565656;
+    color: #9a9a9a;
+}
+
+
+/************************************************************************************************************************************************
+********************************************************************* Sorting *******************************************************************
+************************************************************************************************************************************************/
+
+.sort-button {
+    background: #2f2f2f;
+    color: #adadad;
+}
+
+
+/************************************************************************************************************************************************
+************************************************************************* Agenda ****************************************************************
+************************************************************************************************************************************************/
+
+.jsPanel .agenda-view {
+    background: #191919;
+}
+
+.jsPanel .jsPanel-content .agenda-view {
+    color: #6f6f6f;
+}
+
+.agenda-icon {
+    color: #888;
+}
+
+.agenda-icon:hover {
+    color: #a9a9a9;
+}
+
+.agenda-view-title {
+    color: #989898;
+}
+
+.agenda-view-buttons i {
+    color: #858585;
+}
+
+.agenda-view-buttons i:hover {
+    color: #bbbbbb;
+}
+
+.agenda-view-buttons .bulk-actions-wrapper .btn {
+    background: #dfdfdf;
+    color: #555555;
+}
+
+.agenda-view-buttons .bulk-actions-wrapper .btn:hover {
+    background: #9c9c9c;
+    color: #000;
+}
+
+.agenda-view-buttons .bulk-actions-wrapper .bulk-actions-dropdown {
+    background: #dfdfdf;
+    color: #555555;
+}
+
+.agenda-query {
+    border-top: 3px solid #404040;
+    background: #212121;
+}
+
+.agenda-query-title {
+    color: #ababab;
+}
+
+.agenda-query-title .fa-sync {
+    color: #5f5f5f;
+}
+
+.agenda-query-title .fa-sync:hover {
+    color: #9b9b9b;
+}
+
+.agenda-query-sort-options-dropdown {
+    background: #3c3c3c;
+    color: #8c8c8c;
+}
+
+.agenda-query-timeframes .timeframe {
+    color: #969696;
+}
+
+.agenda-query-timeframes .timeframe:hover,
+.agenda-query-timeframes .timeframe.selected {
+    color: #737373;
+}
+
+.agenda-query-dates-slider .fas {
+    color: #969696;
+}
+
+.agenda-query-dates-slider .fas:hover {
+    color: #737373;
+}
+
+.agenda-query-dates-slider .date {
+    color: #c7c7c7;
+}
+
+.agenda-query .result-item {
+    border-bottom: 1px solid #484848;
+    color: #efefef;
+}
+
+.agenda-query .result-item:hover {
+    background: #000;
+}
+
+.agenda-query .item-tools {
+    background: #212121;
+    box-shadow: -7px 0px 30px 15px #212121;
+}
+
+.agenda-query .item-tools i {
+    color: #adadad;
+}
+
+.agenda-query .item-tools i:hover {
+    color: #8a8a8a;
+}
+
+.agenda-query .result-item.color-1:before {
+    background: linear-gradient(to right, rgba(101, 31, 10, 1) 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.agenda-query .result-item.color-2:before {
+    background: linear-gradient(to right, rgba(116, 59, 1, 1) 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.agenda-query .result-item.color-3:before {
+    background: linear-gradient(to right, rgba(111, 90, 2, 1) 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.agenda-query .result-item.color-4:before {
+    background: linear-gradient(to right, rgba(42, 73, 32, 1) 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.agenda-query .result-item.color-5:before {
+    background: linear-gradient(to right, rgba(16, 56, 93, 1) 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.agenda-query .result-item.color-6:before {
+    background: linear-gradient(to right, rgba(64, 58, 103, 1) 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+
+/************************************************************************************************************************************************
+****************************************************************** Workspaces *******************************************************************
+************************************************************************************************************************************************/
+
+.workspaces-wrapper .fa-eraser {
+    color: #565656;
+}
+
+.workspaces-wrapper .fa-eraser:hover {
+    color: #909090;
+}
+
+.workspaces-wrapper .workspace-button {
+    background: #3e3e3e;
+    color: #adadad;
+}
+
+.workspaces-wrapper .workspace-button:hover {
+    background: #676767;
+    color: #cacaca;
+}
+
+
+/************************************************************************************************************************************************
+*************************************************************** Settings popup ******************************************************************
+************************************************************************************************************************************************/
+
+.settings-popup .settings-popup-input,
+.settings-popup [type='text'],
+.settings-popup textarea {
+    background: #fff;
+    border: 1px solid #cecece;
+    color: #5a5a5a;
+}

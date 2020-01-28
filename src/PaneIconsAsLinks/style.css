@@ -1,0 +1,25 @@
+.DocumentItem-icon:before,
+.BookmarkItem-icon:before {
+    content: "";
+}
+
+.DocumentItem-icon a,
+.BookmarkItem-icon a {
+    text-decoration: none;
+    margin: 5px 0px 0 0;
+    font-size: 16px;
+    line-height: 14px;
+}
+
+.DocumentItem-icon a:before {
+    content: "\e905";
+}
+
+.BookmarkItem-icon a:before {
+    content: "\e930";
+}
+
+.DocumentItem-icon a:hover:before,
+.BookmarkItem-icon a:hover:before {
+    content: "\e93f";
+}

@@ -1,0 +1,186 @@
+.jsPanel-tooltip .jsPanel-content {
+    background-color: #fff !important;
+}
+
+.jsPanel-tooltip .jsPanel-connector {
+    border-bottom-color: #fff !important;
+}
+
+
+/************************************************************************************************************************************************
+******************************************************************** Panels *********************************************************************
+************************************************************************************************************************************************/
+
+.powerpack3-panel .dragbar {
+    background: #f1f1f1;
+    box-shadow: 0px 0px 15px 5px #f1f1f1;
+    position: absolute;
+}
+
+.powerpack3-panel .dragbar.dragged {
+    background: #c7c7c7;
+    box-shadow: 0px 0px 15px 5px #c7c7c7;
+}
+
+.powerpack3-panel .control-buttons {
+    background: #f0f0f0;
+}
+
+
+/************************************************************************************************************************************************
+************************************************************ AttachBookmarksToDocuments *********************************************************
+************************************************************************************************************************************************/
+
+.DocumentItem .BookmarkItem {
+    border-left: 1px solid #dedede;
+}
+
+
+/************************************************************************************************************************************************
+******************************************************************** FocusMode ******************************************************************
+************************************************************************************************************************************************/
+
+.btn-focus {
+    color: #6b6b6b;
+    background: #fff;
+    border: 1px solid #d2d2d2;
+}
+
+.btn-focus.active {
+    color: #dadada;
+    border: 1px solid #eaeaea;
+}
+
+.btn-focus:hover {
+    border: 1px solid #4a4a4a;
+    color: #353535;
+}
+
+.btn-focus.active:hover {
+    border: 1px solid #d2d2d2;
+    color: #6b6b6b;
+}
+
+
+/************************************************************************************************************************************************
+******************************************************************** Separators *****************************************************************
+************************************************************************************************************************************************/
+
+.Node .showXItems-wrapper {
+    border: 1px solid #eaeaea;
+    color: #bfbfbf;
+}
+
+.Node .showXItems-wrapper:hover {
+    border: 1px solid #bdbdbd;
+    color: #4e4e4e;
+}
+
+
+/************************************************************************************************************************************************
+********************************************************************* Sorting *******************************************************************
+************************************************************************************************************************************************/
+
+.sort-button {
+    background: #eaeaea;
+    color: #484848;
+}
+
+
+/************************************************************************************************************************************************
+************************************************************************* Agenda ****************************************************************
+************************************************************************************************************************************************/
+
+.agenda-view-buttons i {
+    color: #858585;
+}
+
+.agenda-view-buttons i:hover {
+    color: #505050;
+}
+
+.agenda-view-buttons .bulk-actions-wrapper .btn {
+    background: #dfdfdf;
+    color: #555555;
+}
+
+.agenda-view-buttons .bulk-actions-wrapper .btn:hover {
+    background: #9c9c9c;
+    color: #000;
+}
+
+.agenda-view-buttons .bulk-actions-wrapper .bulk-actions-dropdown {
+    background: #dfdfdf;
+    color: #555555;
+}
+
+.agenda-query {
+    border-top: 3px solid #dadada;
+    background: #efefef;
+}
+
+.agenda-query-title .fa-sync {
+    color: #969696;
+}
+
+.agenda-query-title .fa-sync:hover {
+    color: #747474;
+}
+
+.agenda-query-sort-options-dropdown {
+    background: #dfdfdf;
+    color: #555555;
+}
+
+.agenda-query-timeframes .timeframe {
+    color: #969696;
+}
+
+.agenda-query-timeframes .timeframe:hover,
+.agenda-query-timeframes .timeframe.selected {
+    color: #737373;
+}
+
+.agenda-query-dates-slider .fas {
+    color: #969696;
+}
+
+.agenda-query-dates-slider .fas:hover {
+    color: #737373;
+}
+
+.agenda-query .result-item {
+    border-bottom: 1px solid #d2d2d2;
+    color: #464646;
+}
+
+.agenda-query .result-item:hover {
+    background: #fdfdfd;
+}
+
+.agenda-query .item-tools {
+    background: #fff;
+    box-shadow: -7px 0px 30px 15px #fff;
+}
+
+.agenda-query .item-tools i {
+    color: #adadad;
+}
+
+.agenda-query .item-tools i:hover {
+    color: #8a8a8a;
+}
+
+
+/************************************************************************************************************************************************
+****************************************************************** Workspaces *******************************************************************
+************************************************************************************************************************************************/
+
+.workspaces-wrapper .workspace-button {
+    background: #dfdfdf;
+    color: #555555;
+}
+
+.workspaces-wrapper .workspace-button:hover {
+    background: #c0c0c0;
+}
